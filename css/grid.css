@@ -1,0 +1,81 @@
+.big-holder{
+    display: grid!important;
+    grid-template-columns: 5% 30% 29% 30% 5%;
+}
+
+.times{
+    text-align: right !important;
+    color: black(15, 15, 15);
+    padding: 3% 2% 3% 0%;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+
+    border: solid 2px gray;
+    border-radius: 10px;
+}
+
+.times:hover{
+    text-align: right;
+    color: aliceblue;
+    background-color: lightseagreen;
+    border: dashed 2px black;
+}
+
+.time{  
+    color: black(15, 15, 15);
+    padding: 3% 5% 3% 5%;
+    width: 28%;
+        box-sizing: border-box;
+        text-align: center;
+    
+        border: solid 2px gray;
+        border-radius: 10px;
+    }
+    
+    .time:hover{
+        color: aliceblue;
+        background-color: lightseagreen;
+        border: dashed 2px black;
+    }
+
+.times1{
+    grid-column: 2/3;
+    position: relative;
+    top: 20%;
+
+}
+
+.times2{
+    grid-column: 3/4;
+    position: relative;
+    top: 20%;
+
+}
+
+.times3{
+    grid-column: 4/5;
+    position: relative;
+    top: 20%;
+
+}
+
+
+.big-holder2{
+    display: grid!important;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+
+.item1{
+    grid-column: 2/3;
+    position: relative;
+    top: 20%;
+
+}
+
+.item2{
+    grid-column: 3/4;
+    position: relative;
+    top: 20%;
+
+}
